@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import { WiDaySunny } from "weather-icons-react";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function Weather(props) {
   function handleResponse(response) {
@@ -13,5 +13,12 @@ export default function Weather(props) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${apiKey}&units=${units}`;
 
   axios.get(apiUrl).then(handleResponse);
-  return <WiDaySunny size={100} color="#fff" />;
+  return (
+    <ReactAnimatedWeather
+      icon="CLEAR_DAY"
+      size={48}
+      animate={true}
+      color="goldenrod"
+    />
+  );
 }
