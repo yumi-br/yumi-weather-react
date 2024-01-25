@@ -23,7 +23,16 @@ export default function App() {
             rel="noreferrer"
           >
             Yumi
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://yumi-weather-react.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
+          .
         </footer>
       </div>
     </div>
