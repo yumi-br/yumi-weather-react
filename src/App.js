@@ -1,7 +1,6 @@
 import React from "react";
 import Weather from "./Weather";
 import "./App.css";
-import ReactAnimatedWeather from "react-animated-weather";
 
 export default function App() {
   return (
@@ -13,6 +12,7 @@ export default function App() {
           <a
             href="https://github.com/yumi-br/yumi-weather-react"
             target="_blank"
+            rel="noreferrer"
           >
             Open-sourced
           </a>{" "}
@@ -20,6 +20,7 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/yumi-aline-inoue-450650267/"
             target="_blank"
+            rel="noreferrer"
           >
             Yumi
           </a>
