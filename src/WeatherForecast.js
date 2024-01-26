@@ -23,7 +23,7 @@ export default function WeatherForecast(props) {
       </div>
     );
   } else {
-    let apiKey = "dff5c692192605ee5ed7f95b423ae857";
+    let apiKey = "64469ac67e6dc941feb5b50915a18dc7";
     let longitude = props.coordinates.lon;
     let latitude = props.coordinates.lat;
     let units = "metric";
