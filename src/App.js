@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/yumi-br/yumi-weather-react"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Open-sourced
           </a>{" "}
@@ -20,7 +20,7 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/yumi-aline-inoue-450650267/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Yumi
           </a>{" "}
@@ -28,7 +28,7 @@ export default function App() {
           <a
             href="https://yumi-weather-react.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Netlify
           </a>
