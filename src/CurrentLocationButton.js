@@ -4,7 +4,7 @@ import axios from "axios";
 
 export default function CurrentLocationButton() {
   function searchLocation(position) {
-    let apiKey = "127b5ec2f6d0997638b7af4846d15bfb";
+    let apiKey = "64469ac67e6dc941feb5b50915a18dc7";
     let unit = "metric";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=${unit}`;
     axios.get(apiUrl).then(WeatherInfo);
