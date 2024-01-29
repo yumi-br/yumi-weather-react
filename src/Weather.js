@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
+import CurrentLocationButton from "./CurrentLocationButton";
 import axios from "axios";
 import "./Weather.css";
 
@@ -59,11 +60,7 @@ export default function Weather(props) {
               />
             </div>
             <div className="col-3">
-              <input
-                type="submit"
-                value="Current"
-                className="btn btn-success w-100"
-              />
+              <CurrentLocationButton />
             </div>
           </div>
         </form>
