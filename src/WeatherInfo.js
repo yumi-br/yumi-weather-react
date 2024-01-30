@@ -19,7 +19,9 @@ export default function WeatherInfo(props) {
         <li>
           <LocalTime timezone={props.data.timezone} />
         </li>
-        <li className="text-capitalize">{props.data.description}</li>
+        <li className="text-capitalize description">
+          {props.data.description}
+        </li>
       </ul>
       <div className="row mt-3">
         <div className="col-6">
